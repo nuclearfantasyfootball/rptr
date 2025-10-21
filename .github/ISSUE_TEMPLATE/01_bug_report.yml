@@ -1,0 +1,67 @@
+name: Bug Report
+description: Report a bug or an issue with Nuclear Fantasy Football tools.
+title: "[Bug] "
+labels: ["bug"]
+type: Bug
+assignees: ["nolmacdonald"]
+body:
+  - type: textarea
+    id: bug-description
+    attributes:
+      label: Bug Description
+      description: Describe the bug that occurred. What happened? What did you expect to happen?
+      placeholder: Provide a clear and concise description of the issue.
+    validations:
+      required: true
+  - type: input
+    id: bug-prevalence
+    attributes:
+      label: Bug Prevalence
+      description: "Is this a one-time occurrence, or does it happen frequently? Have you seen this bug before and if so, how often?"
+      placeholder: |
+        "e.g., The bug occurs every time I try to run the function package::function()."
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Steps to Reproduce
+      description: Please include a minimal reproducible example (reprex) if possible.
+      placeholder: |
+        1. What did you do to cause the bug? What was the input?
+         2. What was the output?
+         3. What did you expect to happen?
+         ...
+    validations:
+      required: true
+  - type: input
+    id: r_version
+    attributes:
+      label: R Version
+      placeholder: |
+        e.g., R version 4.4.1
+    validations:
+      required: true
+  - type: input
+    id: os_version
+    attributes:
+      label: OS Version
+      placeholder: |
+        e.g., macOS Sequoia Version 15.7.1
+    validations:
+      required: true
+  - type: input
+    id: package_version
+    attributes:
+      label: NuclearFF Package and Version
+      placeholder: |
+        e.g., Otis version 0.0.1
+    validations:
+      required: true
+  - type: textarea
+    id: additional
+    attributes:
+      label: Additional Context
+      description: Additional context, discussion, or alternatives considered.
+      placeholder: |
+        Additional solutions or pathways considered. Links to related issues, discussions, etc. Links with references to useful resources.

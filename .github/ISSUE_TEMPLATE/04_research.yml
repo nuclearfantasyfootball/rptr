@@ -1,0 +1,26 @@
+name: Research Request
+description: Request Additional Research for Nuclear Fantasy Football Development
+title: "[Research] "
+labels: ["research"]
+type: Research
+assignees: ["nolmacdonald"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please describe as best as possible the research you are requesting to support Nuclear Fantasy Football development. The more detail, the better. This issue will be referenced when future development is being planned.
+  - type: textarea
+    id: research-request
+    attributes:
+      label: Research Request
+      description: Describe what needs to be investigated and why the research is useful to Nuclear Fantasy Football development.
+      placeholder: Provide a clear and concise description of the research request.
+    validations:
+      required: true
+  - type: textarea
+    id: additional
+    attributes:
+      label: Additional Context
+      description: Additional context, discussion, or paths for exploration.
+      placeholder: |
+        Additional research topics or pathways considered. Links to related issues, discussions, etc. Links with references to useful resources.

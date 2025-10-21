@@ -1,0 +1,22 @@
+name: Documentation Request
+description: Request Additional Documentation for Nuclear Fantasy Football Development
+title: "[Documentation] "
+labels: ["documentation"]
+type: Documentation
+assignees: ["nolmacdonald"]
+body:
+  - type: textarea
+    id: documentation-request
+    attributes:
+      label: Documentation Request
+      description: Describe what documentation is needed and why it is useful to Nuclear Fantasy Football development. The documentation request can include document updates or new documents in general.
+      placeholder: Provide a clear and concise description of the documentation request.
+    validations:
+      required: true
+  - type: textarea
+    id: additional
+    attributes:
+      label: Additional Context
+      description: Additional context, discussion, or references.
+      placeholder: |
+        Additional documentation comments and notes. Links to related issues, discussions, etc. Links with references to useful resources.
